@@ -1,0 +1,12 @@
+#include<stdio.h>
+main()
+{
+ int x,p,d,dist;
+ printf("enter mileage,ltr petrol and distance\n");
+ scanf("%d%d%d",&x,&p,&d);
+ dist=p*x;
+ if(dist>=d)
+ printf("car can travel %dKm",d);
+ else
+ printf("car cannot travel 8%dKm",d);
+}

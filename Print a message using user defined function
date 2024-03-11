@@ -1,0 +1,18 @@
+#include<stdio.h>
+main()
+{
+ int n;
+ void display(int n);
+ printf("enter the num\n");
+ scanf("%d",&n);
+ display(n);
+ }
+ void display(int n)
+ {
+   int i;
+   for(i=1;i<=n;i++)
+   {
+   printf("hello\n");
+   }
+
+ }

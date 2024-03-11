@@ -1,0 +1,16 @@
+
+ scanf("%d",&purchase_amt);
+ if(purchase_amt>10000)
+ {
+   tot_bill=purchase_amt-0.1*purchase_amt;
+   printf("amount to be paid=%d\n",tot_bill);
+
+ }
+
+ else
+ {
+   printf("amount to be paid=%d",purchase_amt);
+
+ }
+
+}

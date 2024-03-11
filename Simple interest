@@ -1,0 +1,14 @@
+#include<stdio.h>
+main()
+{
+  float p,t,r,si,tot_amt;
+  printf("assign the values for p,t,r\n");
+  scanf("%f%f%f",&p,&t,&r);
+  si=p*t*r/100;
+  tot_amt=si+p;
+  printf("total amount=%f\n",tot_amt);
+
+
+
+
+}

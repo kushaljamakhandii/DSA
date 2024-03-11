@@ -1,0 +1,17 @@
+#include<stdio.h>
+main()
+{
+ float i,n,marks,sum=0,avg;
+ printf("enter the num of student\n");
+ scanf("%f",&n);
+ for(i=1;i<=n;i++)
+ {
+  printf("enter the marks of student scored\n");
+  scanf("%f",&marks);
+  sum=sum+marks;
+ }
+   avg=(sum/n);
+printf("average of class=%f",avg);
+}
+
+
